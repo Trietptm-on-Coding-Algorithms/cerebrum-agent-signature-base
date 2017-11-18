@@ -1,0 +1,59 @@
+# 161/11/2017 15:16 Brasil
+# Munio Security, Ltd 2017
+# All rights reserved.
+#
+# Developer: Mauro Risonho de Paula Assumpção
+# mauro.risonho@muniosecurity.com
+#
+# Source code and binary are prohibited its reproduction, 
+# without express authorization, written, scanned, 
+# authorized and confirmed by Munio Security, Ltd.
+#
+# MALICIOUS KEYWORDS
+#
+# Subset of keywords from THOR APT Scanner
+
+# Password Dumper
+WCESERVICE
+WCE_SERVICE
+WCE SERVICE
+
+# Mimikatz
+eo.oe.kiwi
+<3 eo.oe
+mimilib
+mimikatz
+Mimikatz
+privilege::debug
+sekurlsa::LogonPasswords
+sekurlsa::logonpasswords
+
+# Metasploit
+meterpreter
+METERPRETER
+
+# Metasploit PsExec
+%COMSPEC% /C start %COMSPEC% /C \\WINDOWS\\Temp
+
+# Malicious keywords
+spoofing
+keylogger
+powersploit
+passdumper
+creddumper
+credentialdumper
+XScanPF
+
+# Javascript Windows Scripting Host - Suspicious - see http://goo.gl/6HRCbk
+wscript.exe /b /nologo /E:javascript
+
+# Java Deserialisation Exploit Tools
+yoserial-0.
+
+# Powersploit
+Powersploit
+
+# Powershell Mimikatz https://adsecurity.org/?p=2604
+Invoke-Mimikatz
+
+# Don't remove this line
